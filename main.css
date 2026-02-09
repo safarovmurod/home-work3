@@ -8,6 +8,7 @@
     display: none;
 }
 
+
 .section_menu{
    background: #152C39;
 
@@ -185,6 +186,33 @@ color: #FFFFFF;
 .img{
     width: 1280px;
 }
+.box_grid{
+    margin-top: 80px;
+}
+.usligitext{
+    color: black;
+    width: 32.5%;
+    text-align: end;
+}
+.grid{
+    display: grid;
+    grid-template: repeat(2,235px)/ repeat(4,302px);
+    width: 55%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 50px;
+    
+}
+.shvetsimg{
+    position: relative;
+}
+.btn4{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
 
 
 @media (max-width:510px) {
@@ -280,5 +308,20 @@ h1{
 }
 .btn3wi{
     width: 80%;
+}
+.grid{
+    width: 90%;
+    margin-top: 20px;
+}
+.btn4{
+    top: 0%;
+    left: 25px;
+}
+body{
+    overflow-y: visible;
+    overflow-x: hidden;
+
+    max-width: 100%;
+
 }
 }
