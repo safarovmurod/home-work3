@@ -16,6 +16,11 @@
     align-items: center;
     justify-content: space-between;
 }
+.section2{
+    background-color: #476178;
+    width: 100%;
+    height: auto;
+}
 .vashdom{
     display: flex;
     gap: 90px;
@@ -46,11 +51,66 @@ gap: 50px;
     align-items: center;
     gap: 2px;
 }
+.pictures{
+    background-image: url(./photo/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 290px;
+    margin: auto;
+    display: flex;
 
-
-
-
-
+}
+.bn{
+     border-radius: 100px;
+     border: 1px solid #ECECEC ;
+     padding-top: 8px;
+     padding-right: 12px;
+     padding-bottom: 8px;
+     padding-left: 12px;
+     font-weight: 400;   
+     font-size: 18px;
+     line-height: 140%;
+     text-align: center;
+     background-color: #47617800;
+     color: #FFFFFF;
+}
+.btn3{
+    background-color: #E53624;
+    width: 320px;
+    height: 52px;
+}
+h1{
+font-weight: 700;
+font-style: Bold;
+font-size: 44px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.abouttext{
+    width: 238px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 140%;
+    font-style: unset;
+}
+.aboutbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.hider2{
+    width: 65%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}
 
 
 
@@ -65,5 +125,48 @@ gap: 50px;
 }
 .phone{
     display: block;
+}
+.vashdom{
+    width: 90%;
+    justify-content: space-between ;
+    margin: auto;
+
+}
+.beetwin{
+    width: 100%;
+}
+.aboutbutton{
+    width: 100%;
+    gap: 10px;
+}
+.hider2{
+    width: 343px;
+    height: 180px;
+    flex-direction: column;
+    gap: 0px;
+    text-align: start;
+    justify-content: start;
+    background-image: url(./photo/Rectangle\ 7\ tel.png);
+    padding: 0 10px;
+    margin: auto;
+}
+h1{
+    font-size: 24px;
+}
+.abouttext{
+    width: 90%;
+    font-size: 14px;
+}
+.bn{
+    margin-top: 15px;
+}
+.btn3{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
 }
 }
